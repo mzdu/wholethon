@@ -12,8 +12,3 @@ def func1():
     print list2
     
 func1()
-
-#first commit
-#second comment
-#third comment
-#fourth comment
