@@ -1,14 +1,7 @@
-def union(p,q):
-    for e in q:
-        if e not in p:
-            p.append(e)
+list1 = "this is a sdtdring"
+list2 = 'strq'
 
-def func1():
-    list1 = ['1','11','111','1111']
-    list2 = ['a', 'b']
-    
-    list2 = []
-    
-    print list2
-    
-func1()
+def func1(a,b):
+    return 'not match' if ((item1 for item1 in list2).find(item2) for item2 in list1)==-1 else 'match'
+
+print func1(list1,list2)    

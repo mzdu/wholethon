@@ -33,9 +33,12 @@
 ### have not figured out five stars solution
 def fix_machine(debris, product):   
     # items in debris and items in product
-    pass
     
-    # return 'A' if debris.find(product[range(len(product))]) == -1 else product     
+    #return 'A' if debris.find(product[range(len(product))]) == -1 else product     
+    #return 'A', for item in product: debris.find(item)==-1 else product
+    return "A" if (debris.find(item) for item in product)==-1 else product
+
+
 
 ### TEST CASES ###
 print "Test case 1: ", fix_machine('UdaciousUdacitee', 'Udacity') == "A"
